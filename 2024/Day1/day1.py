@@ -27,7 +27,6 @@ def part2(location_id1, location_id2):
         total_sim_score += (id*num_match)
     return total_sim_score
 
-
 def main():
     location_id1, location_id2 = read_input('day1input.txt')
     part1_ans = part1(location_id1, location_id2)
